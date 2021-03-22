@@ -1,0 +1,20 @@
+{
+    "algo" : "LM",
+    "max_iter" : 1000,
+    "g_norm_epsilon" : 1e-3,
+    "dt_list" : [0.0    ],
+
+    "noisy" : false,
+
+    "fixed_mu" : 0.2,
+    "data_percent": 1.0,
+    "atm_res_file" : "atmresParams.json",
+    "log_file" : "learn_log.json",
+    "atm_target_file":"atmParams.json",
+
+
+    "optimised_params" : [
+        {"type" : "CN2", "layer":0},
+        {"type" : "CN2", "layer":3}
+    ]
+}
